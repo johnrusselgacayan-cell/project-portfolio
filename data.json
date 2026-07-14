@@ -1,0 +1,48 @@
+{
+    "skills": [
+        {
+            "name": "HTML",
+            "level": 80
+        },
+        {
+            "name": "CSS",
+            "level": 75
+        },
+        {
+            "name": "JavaScript",
+            "level": 70
+        },
+        {
+            "name": "Java",
+            "level": 80
+        },
+        {
+            "name": "Git",
+            "level": 60
+        }
+    ],
+    "projects": [
+        {
+            "title": "Personal Portfolio",
+            "description": "A responsive personal portfolio website developed using HTML, CSS, and JavaScript.",
+            "image": "image/images/project1.png",
+            "technology": "HTML - CSS - JavaScript - Json - Github",
+            "link": "#"
+        },
+        {
+            "title": "PEAKNESS Fitness Website",
+            "description": "A fitness website created for our UI/UX Design and Programming course. The project features a modern interface, responsive design, and pages for gym services, membership, shopping, and user interaction.",
+            "image": "image/images/project2.png",
+            "technology": "Figma",
+            "link": "#"
+        }
+    ],
+    "education": [
+        {
+            "school": "Lorma Colleges",
+            "course": "Bachelor of Science in Information Technology",
+            "year": "2025 - Present",
+            "description": "Currently studying web development and programming."
+        }
+    ]
+}
