@@ -7,11 +7,11 @@
 }
 
 :root {
-    --primary-color: #ffffff;
-    --background-color: #000000;
-    --card-color: #1a1a1a;
-    --text-color: #ffffff;
-    --secondary-text: #bfbfbf;
+    --primary-color: #4F8CFF;
+    --background-color: #111827;
+    --card-color: #1F2937;
+    --text-color: #F9FAFB;
+    --secondary-text: #9CA3AF;
 }
 
 body {
