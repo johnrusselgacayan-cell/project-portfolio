@@ -15,8 +15,6 @@ async function loadData() {
     loadEducation(data.education);
 }
 
-loadData();
-
 function loadSkills(skills){
     const container = document.getElementById("skills-container");
     skills.forEach(skill=>{
@@ -67,3 +65,5 @@ function loadEducation(education){
         `;
     });
 }
+
+loadData();
