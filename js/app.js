@@ -5,13 +5,16 @@ menuToggle.addEventListener("click", () => {
     navLinks.classList.toggle("active");
 });
 
-fetch("data.json")
-    .then(response => response.json())
-    .then(data => {
-        loadSkills(data.skills);
-        loadProjects(data.projects);
-        loadEducation(data.education);
-    });
+async function loadData() {
+    const response = await fetch("data.json");
+    const data = await response.json();
+
+    loadSkills(data.skills);
+    loadProjects(data.projects);
+    loadEducation(data.education);
+}
+
+loadData();
 
 function loadSkills(skills){
     const container = document.getElementById("skills-container");
