@@ -43,8 +43,6 @@ function loadProjects(projects){
                 <h3>${project.title}</h3>
                 <p>${project.description}</p>
                 <span class="tech">${project.technology}</span>
-                <a href="${project.link}" class="project-btn">
-                    View Project
                 </a>
             </div>
         </div>
